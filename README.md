@@ -2,7 +2,7 @@
 
 > **Market Intelligence at Scale:** A real-time dashboard transforming high-volume Reddit discussions into structured hiring signals for top-tier tech firms.
 
-![System Architecture](architecture_diagram.png)
+![System Architecture](arch_diagram.png)
 
 ## 📖 Overview
 
