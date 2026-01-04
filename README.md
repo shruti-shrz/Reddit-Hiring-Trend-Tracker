@@ -2,14 +2,14 @@
 
 > **Market Intelligence at Scale:** A real-time dashboard transforming high-volume Reddit discussions into structured hiring signals for top-tier tech firms.
 
-![System Architecture](diagram.png)
+![System Architecture](architecture_diagram.png)
 
 ## 📖 Overview
 
-The **Reddit-Hiring-Trend-Tracker** is an automated, event-driven platform designed to track the hiring health of 10 targeted tech companies (e.g., Google, Amazon, OpenAI) across 10+ subreddits. It captures real-time signals from posts and comments—such as offer details, interview loops, and hiring freezes—providing a "ground truth" pulse that often precedes official corporate announcements.
+The **Reddit-Hiring-Trend-Tracker** is an automated, event-driven platform designed to track the hiring health of 10 targeted tech companies (e.g., Google, Amazon, OpenAI) across 10+ subreddits. It captures real-time signals from posts and comments such as offer details, interview loops, and hiring freezes providing a "ground truth" pulse that often precedes official corporate announcements.
 
 ### Key Performance Indicators
-* **Daily Throughput:** Ingests and filters **30,000+ daily posts/comments**.
+* **Daily Throughput:** Ingests and filters ** over 20,000 daily posts/comments**.
 * **Query Latency:** Sub-**10ms** dashboard responses via specialized time-series indexing.
 * **Resilience:** Decoupled architecture handles API rate limits and traffic spikes without data loss.
 
@@ -53,7 +53,7 @@ The project is built on a **Modular, Event-Driven Architecture** utilizing AWS m
 
 ---
 
-## 🗄️ Database Strategy
+<!-- ## 🗄️ Database Strategy
 
 We differentiate between **Evidence** (unstructured links) and **Metrics** (aggregated trends) to optimize for speed.
 
@@ -73,7 +73,7 @@ We differentiate between **Evidence** (unstructured links) and **Metrics** (aggr
 | `signal_count` | `INTEGER` | Sum of occurrences |
 | `sentiment_avg` | `FLOAT` | Mean DistilBERT score |
 
----
+--- -->
 
 ## 📈 Future Roadmap
 
